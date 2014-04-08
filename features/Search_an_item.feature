@@ -7,4 +7,4 @@ Feature: Automate the login functionality in Facebook
 
     When I sign in with email and pas
    
-    Then I should see "Incorrect Email"
+    Then I should see "The password you entered is incorrect"

@@ -12,8 +12,8 @@ When(/^I sign in with email and pas$/) do
 end
 
 Then(/^I should see "(.*?)"$/) do |arg1|
-#expect(page).to have_content 'Incorrect Email'
-#page.should have_content('Incorrect Email')
+
+page.should have_content('Incorrect Email')
 
 end
 
